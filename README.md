@@ -13,8 +13,10 @@ With this function all null values are found and imputed by the selected method.
 
     - "_zero_"
         All null values are imputed by 0
+        
     -"_mean_"
         All null values will be imputed by the average of the list
+        
     -"_median_"
         All null values will be imputed by the median of the list.
       
