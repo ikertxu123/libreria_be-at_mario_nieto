@@ -6,7 +6,7 @@ You can impute, operate and filter.
 # Installation
 Use the package manager pip to install pyimage.
 
-/// pip install libreria ///
+```pip install libreria``` 
 
 # Usage
 ## **1. impute** (list1,method="_zero_")
@@ -102,6 +102,9 @@ This function filters a dataframe according to the selected method and filter.
 
 ### ****Returns****:
 Returns the new filtered dataframe
+# License
+
+MIT
 
 
 # Contributing
