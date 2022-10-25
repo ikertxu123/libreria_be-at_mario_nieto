@@ -1,4 +1,4 @@
-# libreria_beñat_mario_nieto
+# pylistmanage
 This library has 3 functions with which you can manage lists or columns of dataframes.
 
 You can impute, operate and filter.
