@@ -10,12 +10,13 @@ With this function all null values are found and imputed by the selected method.
   - **list1** : list-like
       A list or a column of a dataframe 
   - **method** : {"_zero_", "_mean_", "_median_"}, default "_zero_"
-      -"_zero_"
-      All null values are imputed by 0
-      -"_mean_"
-      All null values will be imputed by the average of the list
-      -"_median_"
-      All null values will be imputed by the median of the list.
+
+    - "_zero_"
+        All null values are imputed by 0
+    -"_mean_"
+        All null values will be imputed by the average of the list
+    -"_median_"
+        All null values will be imputed by the median of the list.
       
 ****Returns****:
   Returns the original imputed list
