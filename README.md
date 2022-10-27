@@ -6,7 +6,7 @@ You can impute, operate and filter.
 # Installation
 Use the package manager pip to install pyimage.
 
-> ```pip install libreria``` 
+> ```pip install pylistmanagement``` 
 
 # Usage
 ## **1. impute** (list1,method="_zero_")
@@ -71,9 +71,9 @@ This function filters a dataframe according to the selected method and filter.
 ### ****Parameters****:
   - **dataf** : dataframe
   
-  - **list1** : list-like
+  - **list1** : _str_
   
-      A list or a column of a dataframe
+      The name of a column of the dataframe
   - **filter** : { _str_ or _int_/_float_ }
   
       Depending on the method, _str_ inputs would not work on other method that's not "_equal_"
