@@ -6,7 +6,11 @@ You can impute, operate and filter.
 # Installation
 Use the package manager pip to install pyimage.
 
-> ```pip install pylistmanagement``` 
+```python
+pip install pylistmanagement
+
+from pylistmanagement import pylistmanagement
+``` 
 
 # Usage
 ## **1. impute** (list1,method="_zero_")
@@ -36,6 +40,12 @@ With this function all null values are found and imputed by the selected method.
 
 Returns the original imputed list
 
+### ****Example****:
+
+``` python
+plm=pylistmanagement()
+plm.impute(list1,method= "zero")
+```
 
 ## **2. column_operation**(listas,method="_concat_")
 
@@ -63,7 +73,13 @@ This function generates a new list with the selected method from all existing li
 ### ****Returns****:
 
 Returns the new created list
- 
+
+### ****Example****:
+
+``` python
+plm=pylistmanagement()
+plm.column_operation(listas,method = "concat")
+```
 
 ## **3. filtering**(dataf,list1,filter,method=="_equal_")
 This function filters a dataframe according to the selected method and filter. 
@@ -102,6 +118,14 @@ This function filters a dataframe according to the selected method and filter.
 
 ### ****Returns****:
 Returns the new filtered dataframe
+
+### ****Example****:
+
+``` python
+plm=pylistmanagement()
+plm.filtering(dataf,list1,filter,method = "equal")
+```
+
 # License
 
 MIT
