@@ -96,24 +96,24 @@ This function filters a dataframe according to the selected method and filter.
   - **method** :  {"_equal_", "_higher_", "_equal_higher_", "_lower_", "_equal_lower_"}, default "_equal_"
 
     - "_equal_" : {_str_ / _int_ / _float_}
-    - 
-        Dataframe will be filtered by the previous selected filter
+     
+        - Dataframe will be filtered by the previous selected filter
   
     - "_higher_" : {_int_ / _float_}
-    - 
-        Dataframe will be filtered by the previous selected filter.
+     
+        - Dataframe will be filtered by the previous selected filter.
   
     - "_equal_higher_" : {_int_ / _float_}
-    - 
-        Dataframe will be filtered by the previous selected filter.
+     
+        - Dataframe will be filtered by the previous selected filter.
   
     - "_lower_" : {_int_ / _float_}
-    - 
-        Dataframe will be filtered by the previous selected filter.
+     
+        - Dataframe will be filtered by the previous selected filter.
   
     - "_equal_lower_" : {_int_ / _float_}
-    - 
-        Dataframe will be filtered by the previous selected filter. 
+     
+        - Dataframe will be filtered by the previous selected filter. 
 
 
 ### ****Returns****:
