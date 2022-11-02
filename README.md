@@ -127,8 +127,7 @@ plm.filtering(dataf,list1,filter,method = "equal")
 ```
 
 # License
-
-MIT
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 # Contributing
