@@ -12,7 +12,7 @@ class pylistmanagement:
         elif method == "median":
             lista_new=list1.fillna(int(list1.median()))
 
-        print("A total of ",n_miss," null values have been deleted. ",int(perc),"%")
+        print("A total of ",n_miss," null values have been deleted. ",int(perc),"% were null")
         return lista_new
 
     def column_operation(self,listas,method="concat"):
